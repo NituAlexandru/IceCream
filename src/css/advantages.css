@@ -85,15 +85,30 @@ p {
   flex-shrink: 0;
   display: none;
 }
+@keyframes infinite-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .advantages-number.seven-two-one::before {
+  animation: infinite-rotation 3s linear 1s infinite;
   content: url(../images/ice.svg);
   display: flex;
 }
 .advantages-number.sixteen::before {
+  width: 49.694px;
+  height: 50px;
+  animation: infinite-rotation 3s linear 1s infinite;
   content: url(../images/apples.svg);
   display: flex;
 }
 .advantages-number.eighty-four::before {
+  width: 44px;
+  height: 50px;
+  animation: infinite-rotation 3s linear 1s infinite;
   content: url(../images/hertz.svg);
   display: flex;
 }
