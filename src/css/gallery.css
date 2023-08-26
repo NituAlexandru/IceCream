@@ -117,12 +117,24 @@
   .fourth-block {
     margin-top: 35px;
   }
+  .container-wrapper .gallery-image img {
+    border-radius: 20px;
+  }
+  .container-wrapper .gallery-image img:hover {
+    border-radius: 20px;
+  }
 }
 /*-------------------------Desktop--------*/
 @media screen and (min-width: 1280px) {
   .gallery-background {
     height: 80px;
     max-width: 2400px;
+  }
+  .container-wrapper .gallery-image img {
+    border-radius: 25px;
+  }
+  .container-wrapper .gallery-image img:hover {
+    border-radius: 25px;
   }
   .gallery-section {
     max-width: 1280px;
@@ -142,5 +154,3 @@
     margin-top: 35px;
   }
 }
-
-
