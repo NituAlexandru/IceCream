@@ -114,11 +114,8 @@ p {
   content: url(../images/hertz.svg);
   display: flex;
 }
-<<<<<<< Updated upstream
+
 .container-advantages.advantages-number .seven-two-one:hover {
-=======
-.container-advantages.advantages-number.seven-two-one:hover {
->>>>>>> Stashed changes
   transform: translateX(70px) translateY(20px) scale(1.2);
 }
 .container-advantages:hover {
@@ -127,10 +124,6 @@ p {
 .container-advantages:hover {
   transform: translateX(70px) translateY(-20px) scale(1.2);
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .advantages-text {
   color: #000;
   font-family: DM Sans;
