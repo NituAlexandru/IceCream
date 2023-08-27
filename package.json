@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nitualexandru/parcel-project-template.git"
+    "url": "git+https://github.com/nitualexandru/hw-group-project-01.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Nitu Alexandru <nitzualexandru@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/nitualexandru/hw-group-project-01/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
