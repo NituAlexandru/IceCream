@@ -85,18 +85,21 @@ body {
   padding: 47px 58px 47px 65px;
   position: relative;
   z-index: 2;
-  animation: progress-slide 5s linear infinite;
+  animation: progress-slide 7s linear infinite;
 }
 
 @keyframes progress-slide {
-  0%,
-  100% {
-    opacity: 0.4;
+  0% {
+    opacity: 0.8;
     transform: scale(0.9);
   }
   50% {
     opacity: 1;
-    transform: translatey(5px) scale(1.17);
+    transform: translatey(2px) scale(1);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(0.9);
   }
 }
 

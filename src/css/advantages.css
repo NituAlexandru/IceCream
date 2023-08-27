@@ -68,21 +68,12 @@ p {
   color: #d41443;
 }
 .advantages-img.ice {
-  width: 33px;
-  height: 50px;
-  flex-shrink: 0;
   display: none;
 }
 .advantages-img.apples {
-  width: 49.694px;
-  height: 50px;
-  flex-shrink: 0;
   display: none;
 }
 .advantages-img.hertz {
-  width: 44px;
-  height: 50px;
-  flex-shrink: 0;
   display: none;
 }
 @keyframes infinite-rotation {
@@ -94,6 +85,8 @@ p {
   }
 }
 .advantages-number.seven-two-one::before {
+  width: 50px;
+  height: 50px;
   animation: infinite-rotation 3s linear 1s infinite;
   content: url(../images/ice.svg);
   display: flex;
