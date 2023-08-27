@@ -2,18 +2,17 @@
   <!-- BUY NOW MENU -->
   <a href="#products">
     <picture class="awesome-icecream-cone">
-      <source />
       <source
         media="(min-width:321px)"
-        srcset="images/header-cone.webp, images/header-cone-2x.webp"
-      />
-      <source />
+        srcset="images/header-cone.webp 1x, images/header-cone-2x.webp 2x"
+        type="image/webp"
+      >
       <source
         media="(max-width:320px)"
-        srcset="images/header-cone.webp, images/header-cone-2x.webp"
-      />
-      <source />
-      <img src="images/header-cone.webp" alt="Icecream cone" />
+        srcset="images/header-cone.webp 1x, images/header-cone-2x.webp 2x"
+        type="image/webp"
+      >
+      <img src="images/header-cone.webp" alt="Icecream cone">
     </picture>
   </a>
   <div class="hero-header-modal-container">
@@ -24,7 +23,7 @@
     >
       <div class="modal-content-buy">
         <div class="title-close-btn-container">
-          <h3 class="buy-now-modal-title">Syper pyper Ice<br />Cream</h3>
+          <h3 class="buy-now-modal-title">Syper pyper Ice<br>Cream</h3>
           <button
             data-modal-close
             class="buy-now-close-btn"
@@ -42,7 +41,7 @@
                 height="107"
                 src="./images/modal-picture-one.webp"
                 alt="cherry ice cream"
-              />
+              >
             </li>
             <li>
               <label for="firstNumberList"></label>
@@ -51,7 +50,7 @@
                 class="ice-cream-modal-input"
                 min="0"
                 id="firstNumberList"
-              />
+              >
             </li>
           </ul>
           <ul class="buy-now-modal-list">
@@ -62,7 +61,7 @@
                 height="107"
                 src="./images/modal-picture-two.webp"
                 alt="banana smoothie"
-              />
+              >
             </li>
             <li>
               <label for="secondNumberList"></label>
@@ -71,7 +70,7 @@
                 class="ice-cream-modal-input"
                 min="0"
                 id="secondNumberList"
-              />
+              >
             </li>
           </ul>
           <ul class="buy-now-modal-list">
@@ -82,7 +81,7 @@
                 height="107"
                 src="./images/modal-picture-three.webp"
                 alt="chocolate ice cream glass"
-              />
+              >
             </li>
             <li>
               <label for="thirdNumberList"></label>
@@ -91,7 +90,7 @@
                 class="ice-cream-modal-input"
                 min="0"
                 id="thirdNumberList"
-              />
+              >
             </li>
           </ul>
         </div>
@@ -104,7 +103,7 @@
               name="username"
               id="username"
               autocomplete="off"
-          /></label>
+          ></label>
           <label class="buy-now-form-label" for="phone-number"
             ><span>Phone</span
             ><input
@@ -114,7 +113,7 @@
               id="phone-number"
               min="0"
               autocomplete="off"
-          /></label>
+          ></label>
           <label class="buy-now-form-label" for="buyNowEmail"
             ><span>Mail</span
             ><input
@@ -123,7 +122,7 @@
               name="email"
               id="buyNowEmail"
               autocomplete="off"
-          /></label>
+          ></label>
           <label class="buy-now-form-label" for="feedback">
             <textarea
               class="buy-now-modal-textarea buy-now-input-box"
@@ -208,8 +207,8 @@
       <section class="main-title-section">
         <h1 class="main-title">
           <span
-            >ice cream <br />
-            made with <br /><span class="passion">passion</span></span
+            >ice cream <br>
+            made with <br><span class="passion">passion</span></span
           >
         </h1>
         <div class="button-div">
@@ -229,25 +228,23 @@
               <source
                 media="(min-width:1280px)"
                 srcset="
-                  images/hero-header-milk-d.webp,
-                  images/hero-header-milk-d-2x.webp
+                  images/hero-header-milk-d.webp    1x,
+                  images/hero-header-milk-d-2x.webp 2x
                 "
-              />
-              <source />
+              >
               <source
                 media="(min-width:768px)"
                 srcset="
-                  images/hero-header-milk-t.webp,
-                  images/hero-header-milk-t-2x.webp
+                  images/hero-header-milk-t.webp    1x,
+                  images/hero-header-milk-t-2x.webp 2x
                 "
-              />
-              <source />
+              >
               <img
                 width="213"
                 height="216"
                 src="images/hero-header-milk-t.webp"
                 alt="milk"
-              /> </picture
+              > </picture
           ></a>
           <div>
             <p class="hero-header-paragraph">
@@ -294,20 +291,18 @@
         <source
           media="(min-width:1280px)"
           srcset="
-            images/awesome-icecream-cone-d.webp,
-            images/awesome-icecream-cone-d-2x.webp
+            images/awesome-icecream-cone-d.webp    1x,
+            images/awesome-icecream-cone-d-2x.webp 2x
           "
-        />
-        <source />
+        >
         <source
           media="(min-width:768px)"
           srcset="
-            images/awesome-icecream-cone-t.webp,
-            images/awesome-icecream-cone-t-2x.webp
+            images/awesome-icecream-cone-t.webp    1x,
+            images/awesome-icecream-cone-t-2x.webp 2x
           "
-        />
-        <source />
-        <img src="images/header-cone.webp" alt="Icecream cone" />
+        >
+        <img src="images/header-cone.webp" alt="Icecream cone" >
       </picture>
     </a>
     <div class="tablet-buy-now-container">
@@ -340,15 +335,19 @@
         ><picture class="hero-tasty-pic">
           <source
             media="(min-width:1280px)"
-            srcset="images/header-tasty-d.webp, images/header-tasty-d-2x.webp"
-          />
-          <source />
+            srcset="
+              images/header-tasty-d.webp    1x,
+              images/header-tasty-d-2x.webp 2x
+            "
+          >
           <source
             media="(min-width:768px)"
-            srcset="images/header-tasty-t.webp, images/header-tasty-t-2x.webp"
-          />
-          <source />
-          <img src="images/header-tasty-t.webp" alt="Sooo Tasty" /> </picture
+            srcset="
+              images/header-tasty-t.webp    1x,
+              images/header-tasty-t-2x.webp 2x
+            "
+          >
+          <img src="images/header-tasty-t.webp" alt="Sooo Tasty"> </picture
       ></a>
     </div>
   </div>

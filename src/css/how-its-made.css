@@ -123,6 +123,10 @@
   border: none;
   margin-bottom: 40px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .how-is-made-btn:hover,
 .how-is-made-btn:focus {
@@ -131,10 +135,10 @@
   scale: 1.2;
 }
 .how-its-made-btn-text {
-  width: 83px;
+  width: 85px;
   height: 44px;
-  flex-direction: column;
-  justify-content: center;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
   color: #d41443;
   text-align: center;

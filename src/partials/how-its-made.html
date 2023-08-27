@@ -3,36 +3,36 @@
     <h3 class="tradition">tradition and love</h3>
     <h2 class="how-is-made-title">how it&rsquo;s made?</h2>
     <div class="how-is-made-content">
-      <div>
+      <picture>
         <source
           srcset="
             ./images/how-is-made-cow-d.webp,
             ./images/how-is-made-cow-d-2x.webp
           "
           media="(min-width: 1280px)"
-        />
+        >
         <source
           srcset="
             ./images/how-is-made-cow-t.webp,
             ./images/how-is-made-cow-t-2x.webp
           "
           media="(min-width: 768px)"
-        />
+        >
         <source
           srcset="
             ./images/how-is-made-cow-m.webp,
             ./images/how-is-made-cow-m-2x.webp
           "
           media="(max-width: 320px)"
-        />
+        >
         <img
           class="how-is-made-img"
           src="./images/how-is-made-cow-m.webp"
           alt="the cow and milk"
-          width="280px"
-          height="279px"
-        />
-      </div>
+          width="280"
+          height="279"
+        >
+      </picture>
       <div class="how-its-made-description">
         <p class="descripton-place">
           Ice is a place where you will become not only a little happier, but
@@ -45,25 +45,18 @@
           three years. Sweets lovers can expect 55 types of ice cream, 15 types
           of coffee and 23 milkshakes.
         </p>
-        <button type="button" class="how-is-made-btn">
+        <a
+          href="https://en.wikipedia.org/wiki/Ice_cream"
+          class="how-is-made-btn"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          aria-label="How it's made"
+        >
           <span class="how-its-made-btn-text">Read more</span>
-          <svg
-            class="how-is-made-svg"
-            xmlns="http://www.w3.org/2000/svg"
-            width="8"
-            height="10"
-            viewBox="0 0 8 10"
-            fill="none"
-          >
-            <path
-              d="M1.61646 1L6.04413 5L1.61646 9"
-              stroke="#D41443"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+          <svg class="buy-now-vector">
+            <use href="./images/icons.svg#icon-buy-now-vector"></use>
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   </div>
