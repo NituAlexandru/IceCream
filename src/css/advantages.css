@@ -94,6 +94,8 @@ p {
   }
 }
 .advantages-number.seven-two-one::before {
+  width: 44px;
+  height: 50px;
   animation: infinite-rotation 3s linear 1s infinite;
   content: url(../images/ice.svg);
   display: flex;
@@ -112,6 +114,16 @@ p {
   content: url(../images/hertz.svg);
   display: flex;
 }
+.container-advantages.advantages-number .seven-two-one:hover {
+  transform: translateX(70px) translateY(20px) scale(1.2);
+}
+.container-advantages:hover {
+  transform: translateX(10px) translateY(-70px) scale(1.2);
+}
+.container-advantages:hover {
+  transform: translateX(70px) translateY(-20px) scale(1.2);
+}
+
 .advantages-text {
   color: #000;
   font-family: DM Sans;
