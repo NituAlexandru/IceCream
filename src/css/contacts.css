@@ -191,15 +191,30 @@ ul {
   width: 100%;
   height: 100%;
   padding: 93px 15px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+      -45deg,
+      rgba(41, 2, 11, 0.5) 13%,
+      rgba(150, 5, 40, 0.5) 31%,
+      rgba(235, 105, 136, 0.5) 49%,
+      rgba(246, 207, 216, 0.5) 67%
+    )
+    0 0 / 400% 400%;
+  animation: modal-gradient 10s infinite;
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 10;
 }
+
 .modal-content {
   max-width: 450px;
-  background-color: #fff;
+  background: linear-gradient(
+      -45deg,
+      rgb(247, 183, 198) 49%,
+      rgba(246, 207, 216, 1) 67%
+    )
+    0 0 / 400% 400%;
+  animation: modal-gradient 10s infinite;
   border-radius: 4px;
   border: 3px solid #ffb8ca;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
