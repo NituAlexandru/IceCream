@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "hw-group-project-01",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://nitualexandru.github.io/hw-group-project-01/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /hw-group-project-01/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/nitualexandru/hw-group-project-01.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Nitu Alexandru <nitzu_alexandru@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://nitualexandru.github.io/hw-group-project-01/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
