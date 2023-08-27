@@ -4,7 +4,6 @@
   "description": "",
   "homepage": "https://nitualexandru.github.io/hw-group-project-01/",
   "scripts": {
-    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /hw-group-project-01/"
   },
   "repository": {
