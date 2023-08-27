@@ -85,6 +85,9 @@ body {
   height: 12px;
   cursor: pointer;
 }
+.menu-btn svg:hover {
+  scale: 1.5;
+}
 .menu svg {
   width: 20px;
   height: 12px;
@@ -677,6 +680,7 @@ body {
 }
 .buy-now-vector {
   width: 6px;
+  height: 8px;
   flex-shrink: 0;
 }
 .mobile-navigation-list {
@@ -690,6 +694,7 @@ body {
 }
 .mobile-navigation-item {
   border-bottom: 1px solid #e18298;
+  padding-bottom: 12px;
 }
 .mobile-navigation-item a {
   text-decoration: none;
@@ -725,20 +730,45 @@ body {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 3px solid #d41443;
   border-radius: 10px;
-  animation-name: animatetop;
-  animation-duration: 2s;
   background-color: #ffb8ca;
   transform: translate(-50%, -50%);
-  transition: top 0.4s, opacity 0.4s;
   z-index: 20;
   font-family: Titan One;
   font-size: 20px;
 }
+
 .is-hidden {
   visibility: hidden;
+  pointer-events: none;
 }
 .is-active {
-  z-index: 20;
+  background: rgb(41, 2, 11);
+  background: linear-gradient(
+      -45deg,
+      rgba(41, 2, 11, 1) 13%,
+      rgba(150, 5, 40, 1) 31%,
+      rgba(235, 105, 136, 1) 49%,
+      rgba(246, 207, 216, 1) 67%
+    )
+    0 0 / 300% 300%;
+  animation: modal-gradient 10s infinite;
+  opacity: 1;
+  width: 150%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  z-index: 15;
+}
+@keyframes modal-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .title-close-btn-container {
   display: flex;
@@ -863,6 +893,16 @@ body {
 /* ---------------------------Tablet */
 
 @media screen and (min-width: 768px) {
+  .is-active {
+  background: linear-gradient(
+      -45deg,
+      rgba(41, 2, 11, 0.5) 13%,
+      rgba(150, 5, 40, 0.5) 31%,
+      rgba(235, 105, 136, 0.5) 49%,
+      rgba(246, 207, 216, 0.5) 67%
+    )
+    0 0 / 400% 400%;
+}
   .tablet-container {
     width: 768px;
     display: flex;
