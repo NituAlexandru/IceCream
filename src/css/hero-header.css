@@ -886,23 +886,18 @@ body {
   display: none;
 }
 /* Media Query */
-
-@media screen and (max-width: 320px) {
-}
-
 /* ---------------------------Tablet */
-
 @media screen and (min-width: 768px) {
   .is-active {
-  background: linear-gradient(
-      -45deg,
-      rgba(41, 2, 11, 0.5) 13%,
-      rgba(150, 5, 40, 0.5) 31%,
-      rgba(235, 105, 136, 0.5) 49%,
-      rgba(246, 207, 216, 0.5) 67%
-    )
-    0 0 / 400% 400%;
-}
+    background: linear-gradient(
+        -45deg,
+        rgba(41, 2, 11, 0.5) 13%,
+        rgba(150, 5, 40, 0.5) 31%,
+        rgba(235, 105, 136, 0.5) 49%,
+        rgba(246, 207, 216, 0.5) 67%
+      )
+      0 0 / 400% 400%;
+  }
   .tablet-container {
     width: 768px;
     display: flex;

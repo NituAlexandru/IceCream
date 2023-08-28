@@ -164,20 +164,6 @@
   background-size: contain;
   background-position: 70% 25%;
 }
-/* MEDIA Query */
-@media screen and (max-width: 320px) {
-  .how-its-made-description {
-    background-image: url('../images/how-is-made-milk-m-x2.webp');
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .how-its-made-description {
-      background-image: url('../images/how-is-made-milk-m-x2.webp');
-    }
-  }
-}
 @media screen and (min-width: 768px) {
   .how-is-made-container {
     width: 768px;

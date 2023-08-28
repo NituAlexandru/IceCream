@@ -88,12 +88,6 @@
   width: 50%;
 }
 /*---- Media Query----*/
-@media screen and (max-width: 320px) {
-  .gallery-container {
-    width: 100%;
-    height: auto;
-  }
-}
 /*--------------------Tablet--------*/
 @media screen and (min-width: 768px) {
   .gallery-background {

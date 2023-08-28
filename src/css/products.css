@@ -245,43 +245,6 @@
 .last-image {
   width: 100%;
 }
-/* Mobile Design */
-@media screen and (max-width: 320px) {
-  .natural:hover {
-    display: none;
-  }
-  .products:hover {
-    display: none;
-  }
-  .milkshakes {
-    margin-bottom: 60px;
-  }
-  .container-product {
-    max-width: 320px;
-  }
-  .card-image {
-    position: relative;
-  }
-  .card-image .ice-cream-picture {
-    position: absolute;
-    bottom: 360px;
-    left: 12px;
-  }
-  .card-image .ice-coffee-picture {
-    position: absolute;
-    bottom: 360px;
-    left: 12px;
-  }
-  .card-image .milkshakes-picture {
-    bottom: 420px;
-    left: 6px;
-    right: 2px;
-    position: absolute;
-  }
-  .all-container {
-    margin-left: 20px;
-  }
-}
 /* Tablet Design */
 @media screen and (min-width: 768px) {
   .all-containers {

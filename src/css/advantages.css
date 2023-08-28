@@ -129,12 +129,6 @@ p {
   flex-shrink: 0;
 }
 /* MEDIA Query */
-@media screen and (max-width: 320px) {
-  .advantages-list {
-    width: 100%;
-    height: auto;
-  }
-}
 /*  Tablet */
 @media screen and (min-width: 768px) {
   .container-advantages {
