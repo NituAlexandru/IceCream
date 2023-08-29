@@ -50,12 +50,12 @@ ul {
   gap: 24px;
   padding: 40px 32px;
   z-index: 3;
+  transition: var(--transition-value);
 }
 .contacts-card:hover,
 .contacts-card:focus {
   box-shadow: 0 8px 30px rgba(144, 35, 62, 0.632);
   cursor: pointer;
-  transition: var(--transition-value);
 }
 .contacts-text-area .title.cafe {
   color: #fff;
@@ -135,6 +135,7 @@ ul {
 }
 .button-section {
   background-color: #fff5f6;
+  transition: var(--transition-value);
 }
 .button-container {
   color: #fff;
