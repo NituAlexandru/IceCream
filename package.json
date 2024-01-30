@@ -2,20 +2,20 @@
   "name": "hw-group-project-01",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://nitualexandru.github.io/hw-group-project-01/",
+  "homepage": "https://nitualexandru.github.io/IceCream/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hw-group-project-01/"
+    "build": "parcel build src/*.html --public-url /IceCream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nitualexandru/hw-group-project-01.git"
+    "url": "git+https://github.com/nitualexandru/IceCream.git"
   },
   "keywords": [],
   "author": "Nitu Alexandru <nitzualexandru@yahoo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nitualexandru/hw-group-project-01/issues"
+    "url": "https://github.com/nitualexandru/IceCream/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
